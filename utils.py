@@ -13,7 +13,7 @@ SOS_token = 0
 EOS_token = 1
 MAX_LENGTH = 10
 
-eng_prefixes = (
+ENG_PREFIXES = (
     "i am ", "i m ",
     "he is", "he s ",
     "she is", "she s ",
@@ -82,13 +82,18 @@ def readLangs(lang1, lang2, reverse=False):
     return input_lang, output_lang, pairs
 
 
-def filterPair(p):
-    return len(p[0].split(' ')) < MAX_LENGTH and \
-        len(p[1].split(' ')) < MAX_LENGTH and \
-        p[1].startswith(eng_prefixes)
+def filterPair(p, eng_prefixes, min_length, max_length):
+    # take only sentence with 8 words or more
+    if eng_prefixes is None:
+        return len(p[0].split(' ')) > min_length and len(p[0].split(' ')) < max_length and \
+            len(p[1].split(' ')) > min_length and len(p[1].split(' ')) < max_length
+    else:
+        return len(p[0].split(' ')) > min_length and len(p[0].split(' ')) < max_length and \
+            len(p[1].split(' ')) > min_length and len(p[1].split(' ')) < max_length and \
+            p[1].startswith(eng_prefixes)
 
-def filterPairs(pairs):
-    return [pair for pair in pairs if filterPair(pair)]
+def filterPairs(pairs, eng_prefixes=ENG_PREFIXES, min_length=0, max_length=MAX_LENGTH):
+    return [pair for pair in pairs if filterPair(pair, eng_prefixes, min_length, max_length)]
 
 def indexesFromSentence(lang, sentence):
     return [lang.word2index[word] for word in sentence.split(' ')]
