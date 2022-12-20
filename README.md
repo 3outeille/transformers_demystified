@@ -6,6 +6,9 @@
     - Cuda 11.4 (cuda for torch wheel 11.3 >= works too)
 - When creating custom kernel/env for jupyter notebook, do not forget to activate env before running `python -m ipykernel install --user --name=env`
 ---
+# TODO: 
+
+- [**:fire: "Thinking like Transformers": framework to simulate Transformer computations. The resulting language RASP is a programming language where every program compiles down to a specific Transformer => Useful to gain intuition :fire:**](https://srush.github.io/raspy/)
 - CNN without attention: [Neural Machine Translation in Linear Time](https://arxiv.org/abs/1610.10099)
     - https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/4%20-%20Convolutional%20Sentiment%20Analysis.ipynb
 - CNN  + attention: [paper "Convolutional Sequence to Sequence Learning"](https://arxiv.org/pdf/1705.03122.pdf)
