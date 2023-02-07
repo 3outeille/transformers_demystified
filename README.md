@@ -14,6 +14,7 @@
 - CNN  + attention: [paper "Convolutional Sequence to Sequence Learning"](https://arxiv.org/pdf/1705.03122.pdf)
     - install torch==1.8 and torchtext==0.9 to understand structure of dataset
     - https://github.com/bentrevett/pytorch-seq2seq/blob/master/5%20-%20Convolutional%20Sequence%20to%20Sequence%20Learning.ipynb
+    - [WaveNet implemented by Kaparthy :fire:](https://www.youtube.com/watch?v=t3YJ5hKiMQ0)
 ---
 
 # HackMd links
