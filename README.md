@@ -8,6 +8,8 @@
 ---
 # TODO: 
 
+- [**The Singular Value Decompositions of Transformer Weight Matrices are Highly Interpretable**](https://www.lesswrong.com/posts/mkbGjzxD8d8XqKHzA/the-singular-value-decompositions-of-transformer-weight)
+  >  Additionally, we experiment with automatic labelling of the SVD directions and find that by using GPT3 as a labeller, we can get reasonable interpretations of directions which allows us to perform comprehensive sweeps of all singular directions in the MLPs over the GPT2 model class, thus providing a proof of concept of scalable automatic labelling on a real task.
 - [**:fire: "Thinking like Transformers": framework to simulate Transformer computations. The resulting language RASP is a programming language where every program compiles down to a specific Transformer => Useful to gain intuition :fire:**](https://srush.github.io/raspy/)
 - CNN without attention: [Neural Machine Translation in Linear Time](https://arxiv.org/abs/1610.10099)
     - https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/4%20-%20Convolutional%20Sentiment%20Analysis.ipynb
