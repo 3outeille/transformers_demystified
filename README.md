@@ -8,6 +8,7 @@
 ---
 # TODO: 
 
+- [TRANSFORMER MODELS: AN INTRODUCTION AND CATALOG](https://arxiv.org/pdf/2302.07730v2.pdf)
 - [**The Singular Value Decompositions of Transformer Weight Matrices are Highly Interpretable**](https://www.lesswrong.com/posts/mkbGjzxD8d8XqKHzA/the-singular-value-decompositions-of-transformer-weight)
   >  Additionally, we experiment with automatic labelling of the SVD directions and find that by using GPT3 as a labeller, we can get reasonable interpretations of directions which allows us to perform comprehensive sweeps of all singular directions in the MLPs over the GPT2 model class, thus providing a proof of concept of scalable automatic labelling on a real task.
 - [**:fire: "Thinking like Transformers": framework to simulate Transformer computations. The resulting language RASP is a programming language where every program compiles down to a specific Transformer => Useful to gain intuition :fire:**](https://srush.github.io/raspy/)
