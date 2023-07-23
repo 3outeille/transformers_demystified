@@ -19,6 +19,14 @@
     - https://github.com/bentrevett/pytorch-seq2seq/blob/master/5%20-%20Convolutional%20Sequence%20to%20Sequence%20Learning.ipynb
     - [WaveNet implemented by Kaparthy :fire:](https://www.youtube.com/watch?v=t3YJ5hKiMQ0)
 ---
+# SOTA overview NLP
+
+- [Tokenizer](https://aman.ai/primers/ai/tokenizer/)
+- [Attention](https://aman.ai/primers/ai/attention/)
+- [Autoregressive vs Autoencoder](https://aman.ai/primers/ai/autoregressive-vs-autoencoder-models/)
+- [Transformers](https://aman.ai/primers/ai/transformers/)
+- [Bidirectional Encoder Representations from Transformers (BERT)](https://aman.ai/primers/ai/bert/)
+- [Token Sampling](https://aman.ai/primers/ai/token-sampling/)
 
 # HackMd links
 
